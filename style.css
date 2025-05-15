@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 98, 98);
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+main {
+    padding-top: 80px;
+}
+
+h1 {
+    text-align: center;
+    color:  rgb(18, 32, 64);
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.sobremim {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.imagemfoto {
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(143, 143, 143);
+}
+
+.imagemprojeto {
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(18, 32, 64);
+    color: rgb(4, 0, 253);
+    justify-content: center;
+    display: flex;
+}
+
+#projetos{
+    height: 75px;
+    background-color:   rgb(255, 95, 95);
+    ;
+
+}
